@@ -1,0 +1,20 @@
+.container{
+    width:100%;
+    min-height: 100vh;
+}
+
+.work{
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    color: rgb(7, 128, 158);
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+@media(max-width:767px){
+    .work{
+        text-align: center;
+    }
+}

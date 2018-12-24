@@ -1,0 +1,32 @@
+.content{
+    width:100%;
+    min-height: 100vh;
+}
+.about-mission{
+    margin-top: 150px;
+}
+
+.about-headers{
+    color: #333333;
+    font-size: 24px;
+    text-align: center;
+    color: #07809e;
+}
+
+.about-body{
+    margin:50px 100px;
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.2em;
+    letter-spacing: 0.05em;
+    text-align: justify;
+}
+
+@media(max-width : 765px){
+    .about-body{
+        margin: 20px 50px;
+    }
+    .about-mission{
+        margin-top: 100px;
+    }
+}

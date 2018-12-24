@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/nigeria-volunteer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="sidebar"></div>
+    <div id="header"></div>
+    <div class="container">
+        <p class="volunteer-head">
+            Volunteering for Water Relief Africa in Nigeria
+        </p>
+        <p class="volunteer-body">
+            By signing up to volunteer for Water Relief Africa in Nigeria, you are helping us reach some of the most disadvantaged communities in the world with portable water and clean environment. Thank you!
+        </p>
+        <p class="volunteer-subhead">
+            We couldn't do it without you!            
+        </p>
+        <p class="volunteer-body">
+                At Water Relief Africa, volunteers are at the heart of what we do. From joining a local group, becoming a speaker or helping out at an event, we have a whole host of opportunities available for you. Whatever you decide to do, you’ll be joining a global network committed to one thing: making portable water available  and clean environment normal for everyone, everywhere.
+         </p>
+         <div class="volunteer-form">
+            <form action="POST">
+                <p class="volunteer-input">You must be aged 18 or over to volunteer for Water Relief Africa</p>
+                <input type="checkbox" id="check"  class= "volunteer-input" required> yes I am age 18 or over <label class="star">*</label> 
+                <br><input type="text"  class="volunteer-input-field" id="fullname" placeholder="Full name" required><br>
+                <br><input type="text"  class="volunteer-input-field" id="address" placeholder="Residential Address" required><br>
+                <br><input type="text"  class="volunteer-input-field" id="city" placeholder="City" required><br>
+                <br><input type="text"  class="volunteer-input-field" id="postcode" placeholder="Postcode" required><br>
+                <br><input type="text"  class="volunteer-input-field" id="country" placeholder="Country" required><br>
+                <br><input type="number"  class="volunteer-input-field" id="phone" placeholder="Phone number" required><br>
+                <br><input type="email"  class="volunteer-input-field" id="email" placeholder="Email Address" required><br>
+                <br class="volunteer-input"> I want to Volunteer as:
+                <br><select name="Volunter Options" form="volunteer-Option" id= "volunteer-option">
+                        <option value="Event">Event Volunteering</option>
+                        <option value="Festival">Festival Volunteering</option>
+                        <option value="Speaker">Speaker Network</option>
+                        <option value="University">University Volunteering</option>
+                      </select>
+                      <p class="code">Code of Conduct</p>
+                      <p class="code-conduct">Water Relief Africa will do our best to ensure you feel confident, happy and supported during your volunteering role. We will provide you with the information you need to volunteer, and we will be here to assist you if you have any issues or queries.
+                         Please tick the box below to confirm that you have read, understand and agree with our Code of Conduct.                        
+                            </p>
+                            <input type="checkbox" id="check-conduct"  class= "volunteer-input" required> Yes I accept the code of conduct <label class="star">*</label> 
+
+                      <p class="privacy">Water Relief Africa will use your personal details to communicate with you in the ways you have agreed to, and as explained in our Privacy Policy. We may use the information you share with us and background information about you that we obtain from publicly available sources to carry out analysis (sometimes using suppliers) to tailor our communications to be more appropriate and relevant to your interests. You can withdraw your consent at any time. To change your preferences, or request to stop receiving communications please contact us on support@waterreliefafrica.org. For full details, including information about your privacy rights, see our Privacy Policy at www.waterreliefafrica.org/privacy.
+
+                        </p>
+                      <!-- captcha -->
+                      <br>
+                      <div class="capbox">
+                      
+                      <div id="CaptchaDiv"></div>
+                      
+                      <div class="capbox-inner">
+                      Type the above number:<br>
+                      
+                      <input type="hidden" id="txtCaptcha">
+                      <input type="text" name="CaptchaInput" id="CaptchaInput" size="15"><br>
+                      
+                      </div>
+                      </div>
+                      <br><br>
+                      <!-- END CAPTCHA -->
+                      
+                <br><button id="submit" class="submit">Submit</button>
+
+            </form>
+         </div>
+         <div id="footer"></div>
+
+    </div>
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+    <script src="layout.js"></script>
+    <script src="captcha.js"></script>
+</body>
+</html>

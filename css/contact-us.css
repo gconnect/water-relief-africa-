@@ -1,0 +1,30 @@
+.container{
+    width:100%;
+    min-height: 100vh;
+}
+.contact{
+    margin-top: 150px;
+    margin-left: 40px;
+    font-size: 28px;
+    color: rgb(7, 128, 158);
+}
+
+.sub-contact{
+    margin: 40px;
+    font-size: 20px;
+}
+
+
+.social-icon {
+    size: 36px;
+    color: rgb(7, 128, 158);
+    margin: 10px;
+}
+
+.links{
+    color: rgb(7, 128, 158);
+
+}
+a{
+    list-style: none;
+}
